@@ -1,4 +1,4 @@
-# A hex-decimal converter, especially for android shell environment, where no busybox, no awk, no bc, no expr exist.
+### A hex-decimal converter, especially for android shell environment, where no busybox, no awk, no bc, no expr exist.
 * I usually encounter the situation where I need to print numbers in hex format in the bare android shell environment. In order to ease this pain and for other places (like in init.rc) taking advantage of this, the converer comes out.
 * Usage:
 $ adb push converter.sh /data
